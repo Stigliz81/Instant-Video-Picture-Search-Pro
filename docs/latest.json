@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "published": false,
+  "version": "1.0",
+  "release_url": null,
+  "notes": "Version 1.0 mit lokaler Suche nach Videos, Bildern und TXT-Dateien, Offline-Index, Medienfiltern, Suchverlauf im Hauptsuchfeld und automatischer Laufwerkserkennung beim Start.\n\nVersion 1.0 includes local video, picture and TXT search, offline indexes, media filters, search history in the main field and automatic drive detection at startup.",
+  "zip_sha256": "5b43d19f8616641039c2ae5e6d4fd9032e7741575e0ff790e98301478534af4e"
+}
