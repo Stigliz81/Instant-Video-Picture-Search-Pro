@@ -33,3 +33,4 @@
 .download-error{color:#ffb7b7}
 
 .hero [data-open-download]:not(:disabled){cursor:pointer}
+@media(max-width:520px){.hero .actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.hero .actions .button{text-align:center}}
