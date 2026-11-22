@@ -31,3 +31,5 @@
 .download-actions button:not(:disabled),.download-consent button:not(:disabled){cursor:pointer}
 .download-consent button:disabled{opacity:.5;cursor:not-allowed}
 .download-error{color:#ffb7b7}
+
+.hero [data-open-download]:not(:disabled){cursor:pointer}

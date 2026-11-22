@@ -41,27 +41,29 @@
 
 (() => {
   'use strict';
-  const opener = document.querySelector('#portable-download');
+  const download = document.querySelector('#portable-download');
   const dialog = document.querySelector('#download-consent');
-  if (!opener || !dialog || typeof dialog.showModal !== 'function') return;
+  if (!download || !dialog || typeof dialog.showModal !== 'function') return;
+  let opener = download;
   const form = dialog.querySelector('form');
   const check = form.querySelector('input[type="checkbox"]');
   const accept = form.querySelector('[type="submit"]');
   const error = form.querySelector('.download-error');
 
-  opener.addEventListener('click', () => {
+  function openDialog(event) {
+    opener = event.currentTarget;
     check.checked = false;
     accept.disabled = true;
     error.hidden = true;
     dialog.showModal();
-  });
+  }
   check.addEventListener('change', () => { accept.disabled = !check.checked; });
   form.querySelector('[data-download-cancel]').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => opener.focus());
   form.addEventListener('submit', event => {
     event.preventDefault();
     if (!dialog.open || !check.checked) return;
-    const target = opener.dataset.downloadUrl;
+    const target = download.dataset.downloadUrl;
     if (!target) {
       error.hidden = false;
       return;
@@ -69,5 +71,16 @@
     dialog.close();
     window.location.assign(target);
   });
-  opener.disabled = false;
+  const downloadLink = document.querySelector('[data-download-nav]');
+  downloadLink?.addEventListener('click', () => {
+    requestAnimationFrame(() => {
+      if (location.hash === downloadLink.hash) {
+        document.getElementById('download').scrollIntoView({ behavior: 'instant' });
+      }
+    });
+  });
+  document.querySelectorAll('[data-open-download]').forEach(button => {
+    button.addEventListener('click', openDialog);
+    button.disabled = false;
+  });
 })();
