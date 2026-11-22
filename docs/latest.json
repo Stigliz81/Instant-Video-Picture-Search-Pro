@@ -1,8 +1,28 @@
 {
   "schema_version": 1,
-  "published": false,
+  "published": true,
   "version": "1.0",
-  "release_url": null,
+  "release_url": "https://github.com/stigliz81/Instant-Video-Picture-Search-Pro/releases/tag/v1.0",
   "notes": "Version 1.0 mit lokaler Suche nach Videos, Bildern und TXT-Dateien, Offline-Index, Medienfiltern, Suchverlauf im Hauptsuchfeld und automatischer Laufwerkserkennung beim Start.\n\nVersion 1.0 includes local video, picture and TXT search, offline indexes, media filters, search history in the main field and automatic drive detection at startup.",
-  "zip_sha256": "5b43d19f8616641039c2ae5e6d4fd9032e7741575e0ff790e98301478534af4e"
+  "zip_sha256": "5b43d19f8616641039c2ae5e6d4fd9032e7741575e0ff790e98301478534af4e",
+  "assets": {
+    "portable": {
+      "name": "Instant-Video-Picture-Search-Pro-v1.0-Portable.zip",
+      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0/Instant-Video-Picture-Search-Pro-v1.0-Portable.zip",
+      "bytes": 30930471,
+      "sha256": "5b43d19f8616641039c2ae5e6d4fd9032e7741575e0ff790e98301478534af4e"
+    },
+    "ffprobe_sources": {
+      "name": "Instant-Video-Picture-Search-Pro-v1.0-FFprobe-Sources.zip",
+      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0/Instant-Video-Picture-Search-Pro-v1.0-FFprobe-Sources.zip",
+      "bytes": 11195675,
+      "sha256": "fff5571d0b05b6f3064ac6f6a624fe66a709889addae6ee85c60528cede37016"
+    },
+    "checksums": {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0/SHA256SUMS.txt",
+      "bytes": 241,
+      "sha256": "53c154f1170acfd0c7ae6e885a57354a5c362acdbe84216c8ebdd61561bde3d0"
+    }
+  }
 }
