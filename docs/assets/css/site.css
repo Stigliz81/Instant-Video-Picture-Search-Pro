@@ -34,3 +34,5 @@
 
 .hero [data-open-download]:not(:disabled){cursor:pointer}
 @media(max-width:520px){.hero .actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.hero .actions .button{text-align:center}}
+.nav .nav-support{white-space:nowrap}
+@media(max-width:800px){html{scroll-padding-top:170px}.site-header{position:sticky}}
