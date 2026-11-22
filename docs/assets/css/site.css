@@ -36,3 +36,28 @@
 @media(max-width:520px){.hero .actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.hero .actions .button{text-align:center}}
 .nav .nav-support{white-space:nowrap}
 @media(max-width:800px){html{scroll-padding-top:170px}.site-header{position:sticky}}
+
+.support-disclosure summary{cursor:pointer;padding-block:10px}
+.support-disclosure summary:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+.support-disclosure{max-width:700px}
+.support-disclosure > summary{font-size:1.35rem;font-weight:700}
+.support-paypal{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+.support-paypal a{overflow-wrap:anywhere}
+.support-qr img{display:block;width:144px;max-width:100%;height:auto;background:white;image-rendering:pixelated}
+.support-alternatives{margin-top:14px}
+.support-alternatives details{margin-left:12px}
+
+.support-disclosure .support-alternatives { margin-top: 8px; border: 0; }
+.support-disclosure .support-alternatives > summary,
+.support-disclosure .payment-card > summary { padding: 10px 12px; background: var(--panel, #22344b); border: 1px solid var(--line, #627894); border-radius: 8px; cursor: pointer; list-style: revert; }
+.support-disclosure .support-alternatives > summary:hover,
+.support-disclosure .payment-card > summary:hover { border-color: var(--accent, #8ee4ff); }
+.support-disclosure .payment-list { display: grid; gap: 6px; margin-top: 8px; }
+.support-disclosure .payment-body { padding: 8px 0; }
+.support-disclosure .payment-body img { display: block; width: 144px; max-width: 100%; height: auto; margin-block: 8px; }
+.support-disclosure .payment-body input { display: block; width: 100%; border: 1px solid var(--line, #627894); border-radius: 6px; padding: 8px; font: inherit; color: inherit; background: transparent; }
+.support-disclosure .payment-actions { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 8px; }
+.support-disclosure .copy-payment { font: inherit; color: inherit; background: var(--panel, #22344b); border: 1px solid var(--line, #627894); border-radius: 6px; padding: 8px 10px; cursor: pointer; }
+.support-disclosure .copy-payment:focus-visible { outline: 2px solid var(--accent, #8ee4ff); outline-offset: 3px; }
+.support-disclosure .copy-status:empty { display: none; }
