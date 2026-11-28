@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "published": true,
-  "version": "1.0.03",
-  "release_url": "https://github.com/stigliz81/Instant-Video-Picture-Search-Pro/releases/tag/v1.0.03",
-  "notes": "Deutsch\n• Übersichtlichere Oberfläche mit kontrastreicherem hellem und verfeinertem dunklem Design.\n• Verbundene und gespeicherte Laufwerke sind klarer unterscheidbar.\n• Kompakter Indexstatus mit Fortschritt, Tempo und geschätzter Restzeit bei ausreichender Datengrundlage.\n• Automatische Indexpflege mit Intervallen von 1 bis 168 Stunden.\n• Neu gruppierte Einstellungen und verständlichere Hinweise.\n\nEnglish\n• A clearer interface with a higher-contrast light theme and a refined dark theme.\n• Connected and saved drives are easier to distinguish.\n• Compact indexing status with progress, speed and estimated time remaining when enough data is available.\n• Automatic index maintenance with intervals from 1 to 168 hours.\n• Reorganized settings and clearer guidance.",
-  "zip_sha256": "764a94d4226f578a32c2050be984d3a7eea8dc504ea2b77630bbb2984bb38a3a",
+  "version": "1.0.18",
+  "release_url": "https://github.com/stigliz81/Instant-Video-Picture-Search-Pro/releases/tag/v1.0.18",
+  "notes": "Deutsch\nAutomatische Laufwerks- und Indexzuordnung beim Start, Suchprofile und erweiterte Suchsyntax, globale Sortierung und weitere Ergebnisseiten, Datenbanksicherung und Wiederherstellung sowie gespeicherte Fenstergröße und -position.\n\nEnglish\nAutomatic drive and index matching at startup, search profiles and advanced search syntax, sorting and paging across direct matches, database backup and restore, and saved window size and position.",
+  "zip_sha256": "8f2495c6d392fbf20a014cd12542f26ffddc241b43d69bbfe043b715b45a205b",
   "assets": {
     "portable": {
-      "name": "Instant-Video-Picture-Search-Pro-v1.0.03-Portable.zip",
-      "sha256": "764a94d4226f578a32c2050be984d3a7eea8dc504ea2b77630bbb2984bb38a3a",
-      "bytes": 31069743,
-      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0.03/Instant-Video-Picture-Search-Pro-v1.0.03-Portable.zip"
+      "name": "Instant-Video-Picture-Search-Pro-v1.0.18-Portable.zip",
+      "bytes": 31147858,
+      "sha256": "8f2495c6d392fbf20a014cd12542f26ffddc241b43d69bbfe043b715b45a205b",
+      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0.18/Instant-Video-Picture-Search-Pro-v1.0.18-Portable.zip"
     },
     "ffprobe_sources": {
-      "name": "Instant-Video-Picture-Search-Pro-v1.0.03-FFprobe-Sources.zip",
-      "sha256": "fff5571d0b05b6f3064ac6f6a624fe66a709889addae6ee85c60528cede37016",
+      "name": "Instant-Video-Picture-Search-Pro-v1.0.18-FFprobe-Sources.zip",
       "bytes": 11195675,
-      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0.03/Instant-Video-Picture-Search-Pro-v1.0.03-FFprobe-Sources.zip"
+      "sha256": "fff5571d0b05b6f3064ac6f6a624fe66a709889addae6ee85c60528cede37016",
+      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0.18/Instant-Video-Picture-Search-Pro-v1.0.18-FFprobe-Sources.zip"
     },
     "checksums": {
       "name": "SHA256SUMS.txt",
-      "sha256": "459973f1b55d06d02d82f95890f6bad4822ff225564f5c198e961358641eb93f",
       "bytes": 247,
-      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0.03/SHA256SUMS.txt"
+      "sha256": "18fd802301d97bf739ecd948296daaf23d9cf2a72003a0cce0bfe9fe32d0fe2d",
+      "url": "https://github.com/Stigliz81/Instant-Video-Picture-Search-Pro/releases/download/v1.0.18/SHA256SUMS.txt"
     }
   }
 }
